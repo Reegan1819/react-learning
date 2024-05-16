@@ -8,6 +8,8 @@ import SearchEngineOptimize from "../Components/AboutReact/SearchEngineOptimize"
 import PureComponent from "../Components/AboutReact/PureComponent";
 import ControlledUncontrolled from "../Components/AboutReact/ControlledUncontrolled";
 import ReactInterviewQuestion from "../Components/AboutReact/ReactInterviewQuestion";
+import FrontendInterviewQuestion from "../Components/Frontend/FrontendInterviewQuestion";
+import JavaScriptQuestions from "../Components/JavascriptQ&A/JavaScriptQuestions";
 
 const RoutesList = [
   {
@@ -85,6 +87,14 @@ const RoutesList = [
     path: "/about-react-interview-questions",
     component: ReactInterviewQuestion,
   },
+  {
+    path: "/frontend-interview-questions",
+    component: FrontendInterviewQuestion,
+  },
+  {
+    path: "/frontend-interview-questions/javascript",
+    component: JavaScriptQuestions,
+  }
 ];
 
 export default RoutesList;

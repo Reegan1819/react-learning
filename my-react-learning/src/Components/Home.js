@@ -39,6 +39,10 @@ const Home = () => {
       <Link to="about-react-interview-questions">
         About React Interview Questions
       </Link>
+      <br />
+      <Link to="/frontend-interview-questions">
+        About Frontend Interview Questions
+      </Link>
     </div>
   );
 };
