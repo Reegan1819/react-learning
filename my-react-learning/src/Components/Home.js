@@ -2,9 +2,38 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const strings = "Hello";
+
+  //output [Hello, olleH, Eholl, lleHo, ollHe, Hloel, elolH, lHelo, oHlle, lelHo, olHel, loHle, eHlol, lloHe, elHlo, loelH, leHol, elHo]
+
+  const permute = (str) => {
+    if (str.length === 0) return [str];
+    const [first, ...rest] = str;
+    const perms = permute(rest.join(""));
+    const result = [];
+    for (const perm of perms) {
+      for (let i = 0; i <= perm.length; i++) {
+        result.push(perm.slice(0, i) + first + perm.slice(i));
+      }
+    }
+    return result;
+  };
+
+  console.log(permute(strings));
+
+  //
+
+  const reverse = (str) => {
+    return str.split("").reverse().join("");
+  };
+
+  console.log(reverse(strings));
+
   return (
     <div>
       <h1>Home</h1>
+      <Link to="/intro-myself">Introduce Myself</Link>
+      <br />
       <Link to="/about-react">About React</Link>
       <br />
       <Link to="/about-react-hooks">About React Hooks</Link>
@@ -40,9 +69,23 @@ const Home = () => {
         About React Interview Questions
       </Link>
       <br />
+      <br />
       <Link to="/frontend-interview-questions">
         About Frontend Interview Questions
       </Link>
+      <br />
+      <br />
+      <Link to="/forty--react-js-interview-questions">
+        Forty React JS Interview Questions
+      </Link>
+      <br />
+      <br />
+      <Link to="/Typescript">Typescript</Link>
+      <br />
+      <Link to="/NextJs">NextJs</Link>
+      <br />
+      <br />
+      <Link to="/Testing">Testing</Link>
     </div>
   );
 };
