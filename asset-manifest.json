@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-learning/static/css/main.e6c13ad2.css",
-    "main.js": "/my-react-learning/static/js/main.58978745.js",
-    "static/js/57.8a848ab5.chunk.js": "/my-react-learning/static/js/57.8a848ab5.chunk.js",
-    "static/js/512.b4467b13.chunk.js": "/my-react-learning/static/js/512.b4467b13.chunk.js",
-    "static/js/403.de10550b.chunk.js": "/my-react-learning/static/js/403.de10550b.chunk.js",
-    "static/js/453.1f28162e.chunk.js": "/my-react-learning/static/js/453.1f28162e.chunk.js",
-    "index.html": "/my-react-learning/index.html",
-    "main.e6c13ad2.css.map": "/my-react-learning/static/css/main.e6c13ad2.css.map",
-    "main.58978745.js.map": "/my-react-learning/static/js/main.58978745.js.map",
-    "57.8a848ab5.chunk.js.map": "/my-react-learning/static/js/57.8a848ab5.chunk.js.map",
-    "512.b4467b13.chunk.js.map": "/my-react-learning/static/js/512.b4467b13.chunk.js.map",
-    "403.de10550b.chunk.js.map": "/my-react-learning/static/js/403.de10550b.chunk.js.map",
-    "453.1f28162e.chunk.js.map": "/my-react-learning/static/js/453.1f28162e.chunk.js.map"
+    "main.css": "/react-learning/static/css/main.e6c13ad2.css",
+    "main.js": "/react-learning/static/js/main.bfd90e22.js",
+    "static/js/57.8a848ab5.chunk.js": "/react-learning/static/js/57.8a848ab5.chunk.js",
+    "static/js/512.b4467b13.chunk.js": "/react-learning/static/js/512.b4467b13.chunk.js",
+    "static/js/403.de10550b.chunk.js": "/react-learning/static/js/403.de10550b.chunk.js",
+    "static/js/453.1f28162e.chunk.js": "/react-learning/static/js/453.1f28162e.chunk.js",
+    "index.html": "/react-learning/index.html",
+    "main.e6c13ad2.css.map": "/react-learning/static/css/main.e6c13ad2.css.map",
+    "main.bfd90e22.js.map": "/react-learning/static/js/main.bfd90e22.js.map",
+    "57.8a848ab5.chunk.js.map": "/react-learning/static/js/57.8a848ab5.chunk.js.map",
+    "512.b4467b13.chunk.js.map": "/react-learning/static/js/512.b4467b13.chunk.js.map",
+    "403.de10550b.chunk.js.map": "/react-learning/static/js/403.de10550b.chunk.js.map",
+    "453.1f28162e.chunk.js.map": "/react-learning/static/js/453.1f28162e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.58978745.js"
+    "static/js/main.bfd90e22.js"
   ]
 }
